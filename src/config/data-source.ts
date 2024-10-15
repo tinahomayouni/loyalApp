@@ -17,5 +17,4 @@ export const config = {
   synchronize: false,
 } satisfies TypeOrmModuleOptions;
 
-
 export const typeOrmConfig = new DataSource(config);
